@@ -1,0 +1,17 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  padding: 20px 0;
+
+  text-align: center;
+
+  color: var(--basicColor);
+  background-color: var(--secondaryBackground);
+}
+
+.footer a:hover {
+  color: var(--lighterBasicColor);
+}

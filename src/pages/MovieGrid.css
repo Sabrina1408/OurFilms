@@ -1,0 +1,48 @@
+.container {
+  display: block;
+
+  max-width: 90%;
+  margin: 2rem auto 4rem auto;
+}
+
+.movie_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+}
+
+.movies_container {
+  overflow-x: hidden; /* auto */
+
+  margin-top: 1rem;
+}
+
+.gallery_wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+
+  transition: transform 0.3s ease-in-out; /* Adiciona a transição de slide */
+
+  gap: 15px;
+}
+
+/* Estilo para os botões de navegação */
+
+.carousel-button {
+  min-width: 30px;
+  height: 30px;
+
+  cursor: pointer;
+  transform: translateY(-50%);
+
+  color: var(--secondaryBackground);
+  border: none;
+  border-radius: 50%;
+  background-color: var(--tertiaryBackground);
+}
+
+.carousel-button:hover {
+  background-color: var(--quaternaryBackground);
+}

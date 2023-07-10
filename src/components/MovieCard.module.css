@@ -1,0 +1,30 @@
+.movie_card img {
+  height: 200px;
+}
+
+.movie_card a {
+  color: var(--details);
+}
+
+.movie_card svg {
+  color: var(--details);
+}
+
+.imgError {
+  height: 200px;
+  width: 133.33px;
+  background-color: var(--quaternaryBackground);
+  text-align: center;
+}
+
+.imgError svg {
+  margin-top: 30px;
+  font-size: 100px;
+  color: var(--darkerBasicColor);
+  text-align: center;
+}
+
+.imgError p {
+  color: var(--darkerBasicColor);
+  text-shadow: none;
+}

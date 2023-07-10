@@ -1,0 +1,39 @@
+.movieMain_details h1 {
+  margin-bottom: 2rem;
+
+  text-align: center;
+}
+
+.movieMain_details img {
+  height: 500px;
+}
+
+.secondMain_details {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 5%;
+}
+
+.secondMain_title_details {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+
+.MovieDetails_description {
+  margin-top: 2rem;
+}
+
+@media(max-width: 900px) {
+  .movieMain_details img {
+    height: 300px;
+  }
+
+  .secondMain_title_details {
+    margin-top: 2rem;
+  }
+}

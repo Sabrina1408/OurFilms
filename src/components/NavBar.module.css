@@ -1,0 +1,91 @@
+.largeScreen a,
+.smallScreen a {
+  font-size: 1.5rem;
+}
+
+.largeScreen a:first-child,
+.smallScreen a:first-child {
+  font-size: 1.5rem;
+
+  display: flex;
+  align-items: center;
+
+  gap: 5px;
+}
+
+.smallScreen {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 10px;
+
+  background-color: var(--secondaryBackground);
+
+  gap: 10px;
+}
+
+.topPart {
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.largeScreen {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  padding: 1rem 5%;
+
+  background-color: var(--secondaryBackground);
+}
+
+.form {
+  position: relative;
+}
+
+.form input {
+  width: 400px;
+  height: 30px;
+  padding-left: 10px;
+
+  border-radius: 30px;
+}
+
+.form button {
+  font-size: 1.5rem;
+
+  position: absolute;
+  top: 3px;
+  right: 0;
+  bottom: 0;
+
+  width: 50px;
+
+  cursor: pointer;
+
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+@media(min-width: 780px) {
+  .smallScreen {
+    display: none;
+  }
+}
+
+@media(max-width: 780px) {
+  .largeScreen {
+    display: none;
+  }
+}
+
+@media(max-width: 450px) {
+  .form input {
+    width: 250px;
+  }
+}
